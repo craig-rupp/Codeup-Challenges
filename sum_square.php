@@ -12,7 +12,9 @@ $sum2 = 0;
 
 for ($i = 1; $i <= 100; $i++){
 	$sum1 += ($i * $i);
+	//echo $sum1 . PHP_EOL;
 	$sum2 += $i;
+	echo $sum2 . PHP_EOL;
 }
 
 $sum2 *= $sum2;
